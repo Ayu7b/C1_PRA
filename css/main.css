@@ -6,6 +6,11 @@ html{
 	widows: 70%;
 	background-color: lightgray;
 }
+h1{
+	text-align: center;
+	background-color: #f8aecd ;
+	color: #03357c ;
+}
 .borderLine{
 	border: 10px black solid;
 	margin-top: 100px;
@@ -23,7 +28,7 @@ html{
 	width: 15%;
 }
 .row img{
-	width: 70%;
+	width: 80%;
 }
 .vakken, .versnelling {
 	background-color: #f8aecd;
@@ -60,4 +65,31 @@ h2.Indeling-blokken{
   	margin: 0 auto;
   	padding-left: 0px;
   	padding-bottom: 200px;
+}
+.docenten{
+		display: flex;
+	flex-direction: row;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.docenten img{
+	max-width: 400px;
+	width: 20%;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.h2-docent{
+	display: flex;
+	justify-content: center;
+	margin-top: -70px;
+	margin-bottom: 70px;
+	background-color: #03357c;
+	color: #f8aecd;
+	align-items: center;
+}
+.docenten p{
+	display: flex;
+	justify-content: center;
+
 }
