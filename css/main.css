@@ -4,6 +4,7 @@
 }
 html{
 	widows: 70%;
+	background-color: lightgray;
 }
 .borderLine{
 	border: 10px black solid;
@@ -15,8 +16,26 @@ html{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: lightblue;
 
-
+}
+.borderLine img{
+	width: 15%;
+}
+.row img{
+	width: 70%;
+}
+.vakken, .versnelling {
+	background-color: #f8aecd;
+}
+h2.vakken, h2.versnelling{
+	color: #03357c;
+}
+.Indeling-blokken{
+	background-color: #03357c;
+}
+h2.Indeling-blokken{
+	color: #f8aecd;
 }
 .textStudent{
 /*	margin: 100px;
