@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	widows: 70%;
+}
+.borderLine{
+	border: 10px black solid;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+/*	padding: 90px;
+*/	text-align: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+.textStudent{
+/*	margin: 100px;
+*/	width: 400px;
+}
+.borderLine p{
+	text-align: left;
+/*	margin-top: 10px;
+*/	width: 400px;
+}
